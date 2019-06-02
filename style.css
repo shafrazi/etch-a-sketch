@@ -17,6 +17,10 @@
   border: solid;
   border-width: 0.5px;
   border-color: black;
-  display: inline-table;
+  display: inline-block;
   float: left;
+}
+
+.hover {
+  background-color: green;
 }

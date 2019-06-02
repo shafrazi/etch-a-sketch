@@ -10,3 +10,12 @@ for (let i = 0; i < 16; i++) {
     row.append(square);
   }
 }
+
+const squares = document.querySelectorAll(".square");
+
+for (let i =0; i < squares.length; i++) {
+  let square = squares[i];
+  square.addEventListener("mouseover", function() {
+    square.classList.add("hover");
+  })
+}
