@@ -11,8 +11,6 @@
 
 .square {
   position: relative;
-  width: 49px;
-  height: 49px;
   margin: 0px !important;
   border: solid;
   border-width: 0.5px;
@@ -23,4 +21,41 @@
 
 .hover {
   background-color: green;
+}
+
+.control {
+  width: 400px;
+  height: 100px;
+  margin: auto;
+  border: solid;
+  border-radius: 10px;
+  border-color: #fc6036;
+}
+
+.button {
+  width: 150px;
+  background-color: #0feeb2;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: calibri;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #64cdc7;
+  cursor: pointer;
+}
+
+input[type=text] {
+  position: relative;
+  /* width: 150px; */
+  font-size: 20px;
+  top: 10px;
+  left: 75px;
+  /* right: 124px; */
+  border: 2px solid red;
+  border-radius: 4px;
+  text-align: center;
 }
