@@ -1,0 +1,22 @@
+.container {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid;
+  border-width: 0.5px;
+
+}
+
+.square {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  margin: 0px !important;
+  border: solid;
+  border-width: 0.5px;
+  border-color: black;
+  display: inline-table;
+  float: left;
+}
